@@ -4,10 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <p>
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Javascript knowledge is must before learning React.
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -15,9 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello world
+          Learn React..Welcome to codaisseur.
         </a>
-        </p>
+      </header>
     </div>
   );
 }
